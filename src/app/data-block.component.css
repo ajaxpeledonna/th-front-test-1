@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+
 .data-block {
+  font-family: 'IBM Plex Sans', sans-serif;
   max-width: 892px;
   height: auto;
   background: #fff;
   padding: 40px;
   color: #161616;
+  margin: 0 auto;
 }
 
 .data-block__row {
@@ -30,9 +34,17 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 133%;
+  margin: 0;
 }
 
 .data-block__link {
   font-size: 14px;
   color: #0f62fe;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.icon {
+  fill:#0f62fe;
+  margin: 0 0 0 10px;
 }

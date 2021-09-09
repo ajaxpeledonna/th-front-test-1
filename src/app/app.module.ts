@@ -7,6 +7,10 @@ import { CardComponent } from './card.component';
 import { ListComponent } from './list.component';
 import { ButtonsComponent } from './buttons.component';
 import { AddModule } from '@carbon/icons-angular';
+import { AddCommentModule } from '@carbon/icons-angular';
+import { EditModule } from '@carbon/icons-angular';
+import { ArrowUpRightModule } from '@carbon/icons-angular';
+import { TrashCanModule } from '@carbon/icons-angular';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { AddModule } from '@carbon/icons-angular';
   ],
   imports: [
     BrowserModule,
-    AddModule
+    AddModule,
+    EditModule,
+    ArrowUpRightModule,
+    TrashCanModule,
+    AddCommentModule
   ],
   providers: [],
   bootstrap: [AppComponent]

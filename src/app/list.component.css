@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --columns-count: 2;
 
   --row-height: 48px;
@@ -16,11 +16,23 @@ ul {
   -webkit-column-gap: 0;
   column-gap: 0;
   padding: 0;
+} */
+.list {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-
+.list-head {
+  color: #6F6F6F;
+  font-weight: 600;
+}
 li {
-  height: var(--row-height);
-  line-height: var(--row-height);
+  height: 48px;
+  display: flex;
+  align-items: center;
   border-bottom: 0.5px solid #e0e0e0;
   box-sizing: border-box;
+  padding-left: 16px;
 }

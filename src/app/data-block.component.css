@@ -1,0 +1,38 @@
+.data-block {
+  max-width: 892px;
+  height: auto;
+  background: #fff;
+  padding: 40px;
+  color: #161616;
+}
+
+.data-block__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.data-block__btn-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.data-block__title {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 133%;
+}
+
+.data-block__link {
+  font-size: 14px;
+  color: #0f62fe;
+}

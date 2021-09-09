@@ -1,0 +1,26 @@
+:root {
+  --columns-count: 2;
+
+  --row-height: 48px;
+
+  --rows-count: 4;
+}
+
+ul {
+  list-style: none;
+  -webkit-column-fill: auto;
+  column-fill: auto;
+  -webkit-columns: var(--columns-count);
+  columns: var(--columns-count);
+  height: calc(var(--row-height) * var(--rows-count));
+  -webkit-column-gap: 0;
+  column-gap: 0;
+  padding: 0;
+}
+
+li {
+  height: var(--row-height);
+  line-height: var(--row-height);
+  border-bottom: 0.5px solid #e0e0e0;
+  box-sizing: border-box;
+}

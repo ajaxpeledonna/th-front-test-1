@@ -48,3 +48,9 @@
   fill:#0f62fe;
   margin: 0 0 0 10px;
 }
+
+@media (max-width: 600px) {
+  .data-block {
+    padding: 16px;
+  }
+}
